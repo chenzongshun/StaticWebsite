@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+
+.daohang{
+	width:78%;
+	margin:10px auto;
+	margin-bottom:40px;
+	background:url(../picture/daohangbeijing.png) repeat-x;}
+	
+.daohang a:hover{
+	text-decoration:underline;}
+.daohang a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:15px;
+	line-height:30px;}
+	
+.daohang li:hover{
+	background-color:#E64E3E;}
+	
+.daohang li{
+	text-align:center;
+	width:8%;
+	display:inline-block;}
+	
+.dibu_guanyuwomen{
+	line-height:30px;
+	text-align:center;
+	margin-top:100px;
+	font-size:12px;
+	color:#999999;}
+	
+.dibu_guanyuwomen span:hover{
+	color:red;
+	font-size:24px;
+	font-weight:bold;}
+	
+.dibushubiao:hover{
+	cursor:url(../picture/dibu.ico) , default;}
+	
+.dibushubiao{
+	height:150px;}
+
+
+/*00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+.csy{
+	width:74%;
+	height:750px;
+	overflow:hidden;
+	margin:0px auto;}
+.kjxw_henfu_tupain{		/*科技横幅*/
+	width:19%;
+	float:left;}
+
+.kjxw_henfu_wenzi li a{
+	text-decoration:none;
+	color:#A07B7C;}
+	
+.kjxw_henfu_wenzi li:hover{
+	background-color:#5A9F2A;}
+	
+.kjxw_henfu_wenzi li a:hover{
+	color:red;
+	font-weight:bold;}
+	
+.kjxw_henfu_wenzi li{
+	margin-top:30px;
+	display:inline-block;
+	width:6%;
+	line-height:25px;
+	text-align:center;}
+	
+.kjxw_henfu_wenzi{
+	text-align:right;
+	width:81%;
+	float:right;}
+
+.kjxw_neirong{
+	padding-left:20px;}
+	
+.kjxw_neirong_zi{		/*科技内容字*/
+	width:45%;
+	line-height:30px;
+	color:#888888;
+	font-size:12px;
+	float:left;}
+
+.kjxw_neirong_zi_xiaohang{
+	padding-bottom:10px;}
+	
+.kjxw_neirong_zi a{
+	font-size:24px;
+	color:#222222;
+	text-decoration:none;}
+	
+.kjxw_neirong_zi a:hover{
+	text-decoration:underline;
+	color:#FF8456;}
+	
+.kjxw_neirong_tu{		/*科技内容图*/
+	width:55%;
+	float:right;}
+	
+.kjxw_neirong_tu1{		/*------------------回去看看相对定位和绝对定位的区别------------------------*/
+	position:relative;
+	height:305px;
+	width:560px;
+	background:url(../picture/20161215023543944.jpg);}
+	
+.kjxw_neirong_tu2{		/*------------------回去看看相对定位和绝对定位的区别------------------------*/
+	position:relative;
+	height:305px;
+	width:561px;
+	background:url(../picture/20161216050434757.png) no-repeat;}
+
+.kjxw_neirong_touming{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background:url(../picture/touming_kejixinwen.png) no-repeat;
+	line-height:40px;}
+
+.kjxw_neirong_touming a{
+	color:#FFFFFF;
+	text-decoration:none;}
+
+.kjxw_neirong_touming a:hover{
+	font-weight:bold;
+	color:red;
+	text-decoration:underline;}
+	
+.junshi{		/*军事板块*/
+	clear:both;}
+	
+.kuaisulianjie{
+	width:100%;
+	position:fixed;
+	text-align:center;
+	bottom:0px;}
+	
+.kuaisulianjie li{
+	text-align:center;
+	background-color:#7AC74A;
+	width:13%;
+	display:inline-block;}
+ 
+ .kuaisulianjie li:hover{
+	 background-color:#58E3BA;}
+ 
+ .kuaisulianjie li a:hover{
+	 color:#FF0004;
+	 font-weight:bold;}
+ 
+ .kuaisulianjie li a{
+	 text-decoration:none;
+	 line-height:30px;}
+
+.kjxw_neirongkuang{				/*科技新闻内容框*/
+	height:600px;
+	width:100%;}
+	
+.kjxw_neirongkuang_left{
+	height:352px;				/*一个为height:352px;*/
+	overflow:hidden;
+	margin-top:8px;
+	position:relative;
+	background:url(../picture/73Gl-fxyyfqs3883332.gif);
+	background-size:100%;				/*背景图片大小满div*/}
+	
+.kjxw_neirongkuang_left_touming{
+	position:absolute;
+	background:url(../picture/touming_kejixinwen.png) repeat-x;
+	width:100%;
+	bottom:0px;}
+	
+.kjxw_neirongkuang_left_touming a{
+	color:#FFFFFF;
+	margin-left:60px;
+	text-decoration:none;
+	line-height:40px;}
+	
+.kjxw_neirongkuang_left_touming a:hover{
+	text-decoration:underline;
+	font-weight:bold;}
+	
+.kjxw_neirongkuang_right{
+	width:30%;
+	height:763px;
+	margin-top:5px;
+	overflow:hidden;
+	float:right;
+	line-height:30px;}
+	
+.kjxw_neirongkuang_right span a:hover{
+	text-decoration:underline;
+	color:red;}
+	
+.kjxw_neirongkuang_right a:hover{
+	text-decoration:underline;
+	color:red;}
+	
+.kjxw_neirongkuang_right a{
+	color:#000000;
+	font-size:13px;
+	line-height:20px;
+	text-decoration:none;}
+	
+.kjxw_neirongkuang_right span a{
+	font-family:华文细黑;
+	text-decoration:none;
+	color:#333333;
+	font-size:18px;
+	font-weight:bold;}
+	
+.kjxw_neirongkuang_right_xiaohongzi a{
+	color:#FF0000;}
+	
+.kjxw_neirongkuang_zuo{
+	width:69%;
+	float:left;}
+	
+.kjxw_neirongkuang_left2{
+	position:relative;
+	background:url(../picture/ofq6-fxyxute3427990.jpg);
+	background-size:100%;
+	background-color:red;
+	height:400px;}
+	
+.kjxw_neirongkuang_left_touming a{
+	font-size:22px;}
+
+
+
+.xiaoneirong_qizhognyige:hover{
+	border-bottom:3px #159B46 solid;}
+
+.xiaoneirong{
+	width:74%;
+	margin:20px auto;
+	margin-top:70px;}
+
+.xiaoneirong_qizhognyige{
+	height:245px;
+	width:100%;}
+	
+.xiaoneirong_qizhognyige_zi a:hover{
+	color:#159B46;}
+	
+.xiaoneirong_qizhognyige_zi a{
+	font-size:36px;
+	color:#404040;
+	font-weight:bold;
+	text-decoration:none;}
+	
+.xiaoneirong_qizhognyige_zi{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;}
+	
+.xiaoneirong_qizhognyige_tu:hover{
+	border:4px solid #38BB9C;}
+	
+.xiaoneirong_qizhognyige_tu{
+	width:35%;
+	float:left;}
+	
+.xiaoneirong_qizhognyige_zi_xiatu{
+	margin-top:80px;}

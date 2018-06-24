@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:hsla(100,100%,100%,1.00);
+	weight:1200px;
+	height:700px;
+	background-image:url(pics/bkimg.jpg)
+	}
+#123{
+	writing-mode:lt-tb;
+	background-color:hsla(0,100%,78%,1.00);
+	float:left;
+	width:300px;
+	height:10px;
+}
+.xinwenkaishile{
+	weight:1200px;
+	text-align:center;
+	}
+.shouhang{
+	height:24px;
+	width:100%;
+	padding-bottom:5px;}
+.123shouhang ul li{
+	float:left;
+	list-style-type:none;
+	writing-mode:lt-tb;
+	width:150px;
+	display:inline-block;
+	text-align:center; 
+	text-color:white;}
+li {
+	weight:100%;
+	float:left;
+	list-style-type:none;
+	width:100px;}
+.fanye a{
+	background-color:hsla(0,0%,78%,1.00);
+	text-decoration:none;
+	font-size:36px;
+}
+p{
+	line-height:200%;
+	font-size:16px;
+	height:auto;
+	weight:400px;
+	}
+#shouhang a{
+	text-decoration:none;
+	font-size:24px;
+	color:#FFFFFF;
+	}
+.heji{
+	text-align:center;
+	font-size:36px;
+	font:color:#000000;
+	font-family:黑体;
+	font-weight:bold;}
+.biaoti{
+	width:100%;
+	text-align:center;
+	font-size:24px;
+	font:color:#000000;
+	font-family:黑体;
+	font-weight:bold;}
+	

@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px;}
+#start{
+	background:url(../%E5%9B%BE%E7%89%87/360%E6%88%AA%E5%9B%BE20161218103402398.jpg);}
+.imges ul{
+	float:right;
+	padding-top:0px;}
+.top{
+	background:url(../%E5%9B%BE%E7%89%87/02.jpg) repeat-x;
+	margin-left:5px;
+	line-height:40px;}
+.top ul a{
+	text-decoration:none;
+	color:#FBFBFB;}
+.top ul a:hover{
+	color:#B10530;}
+.wenzi{
+	float:right;}
+.wenzi ul a{
+	text-decoration:none;
+	color:#BFAFB0;}
+.wenzi ul a:hover{
+	color:#000000;}
+.gerenziliao{
+height:100px;
+}
+
+.zhongbuhezi{
+background:url(../%E5%9B%BE%E7%89%87/360%E6%88%AA%E5%9B%BE20161218114714893.jpg);}
+
+.tupian{
+width:250px;
+height:370px;
+float:left;
+margin-top:20px;
+padding-left:25px;}
+.youbian{
+float:left;
+padding-left:10px;
+margin-top:20px;
+width:973px;}
+.zuobianwenzi{
+float:left;
+padding-top:20px;
+margin-left:10px;
+width:700px;}
+.youbiandewenzi{
+float:right;
+padding-top:20px;
+width:270px;}
+.wenzixiabufen{
+float:left;
+margin-left:50px;
+line-height:25px;	
+padding-top:10px;
+width:930px;
+text-align:center;}
+.xiamianwenzi{
+padding-left:90px;}
+
+.xiamian{
+	width:1440px;
+	height:40px;}
+.qiweitupian{
+padding-left:60px;}
+.gengduo{
+	
+float:right;}
+.gengduo a{
+color:#999999;
+text-decoration:none;}
+.gengduo a:hover{
+color:#FF0000;}
+.xiaoyuan{
+float:left;
+padding-left:40px;
+margin-top:10px;}
+.weixiao{
+float:left;
+padding-left:60px;
+margin-top:10px;}
+.xu{
+padding-left:60px;
+margin-top:10px;
+float:left;}
+.dudu{
+padding-left:60px;
+margin-top:10px;
+float:left;}
+.yandedianshi{
+	float:left;}
+
+.dianshijudahezi{
+height:100px;}
+.quanshitupian{
+	width:1300px;
+	height:400px;}
+
+.aiqingshuixinle{
+height:281px;
+width:233px;
+float:left;
+margin:20px auto;
+padding-left:25PX;}
+.aiqingshuixinle  dl dd a{
+text-decoration:none;
+color:#333333;
+text-align:center;																																																									}
+.aiqingshuixinle  dl dd a:hover{
+color:#CC0000;}
+.zuihou p{
+padding-left:150px;
+text-decoration:none;}
+.bnbtm-item-hd h3{
+text-decoration:none;
+color:#666666;
+padding-left:200px;}
+. ul {
+background-color:#00FFFF;
+width:250px;}
+. ul li a{
+text-decoration:none;
+color:#999999;
+line-height:20px;}
+. ul li a:hover{
+color:#00FFFF;}
+.bnbtm-item{
+float:right;
+margin-right:200px;}
+
+
+.dibu{
+width:100%;
+background-color:#999999;}
+
+.dibu_qizhongyige a span{
+font-size:24px;}
+
+.dibu_qizhongyige a{
+line-height:39px;
+padding-left:100px;
+color:#999999;
+font-size:12px;
+text-decoration:none;}
+
+.dibu_qizhongyige{
+width:33%;
+float:left;
+margin:20px auto;}
+.jieshu{
+text-align:center;}
+
+
+
+
+
+

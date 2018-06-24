@@ -1,0 +1,223 @@
+    .mil_ad_01{ width:1000px; margin:0 auto;}
+	.mil_ad_01 img{ display:block;}
+	
+	.mt09{ margin-top:9px;}
+	.mt12{ margin-top:12px;}
+	.mt14{ margin-top:14px;}
+	.mt30{ margin-top:30px;}
+	.mb09{ margin-bottom:9px;}
+	.mtb18{ margin:18px 0;}
+	.mt21{ margin-top:21px;}
+	.pt18{ padding-top:18px;}
+	.pt20{ padding-top:20px;}
+	.pt22{ padding-top:22px;}
+	.pt28{ padding-top:28px;}
+	.pt30{ padding-top:30px;}
+	.pt37{ padding-top:37px;}
+	.pt40{ padding-top:40px;}
+	.pt43{ padding-top:43px;}
+	.pt23{ padding-top:23px;}
+	.pb25{ padding-bottom:25px;}
+	.pb28{ padding-bottom:28px;}
+	.pb30{ padding-bottom:30px;}
+	.line{ height:1px; overflow:hidden; background:#ededed;}
+	.space22{ height:22px; overflow:hidden;}
+	.space30{ height:30px; overflow:hidden;}
+	.space37{ height:37px; overflow:hidden;}
+	.space40{ height:40px; overflow:hidden;}
+	.fl{ float:left;}
+	.fr{ float:right;}
+	
+	.h_searchDiv{width:1000px;margin:0 auto;height:35px;padding-top:25px}
+	.h_theLogo{float:left;font-size:12px;width:353px;height:26px}
+	.h_theLogo img{display:block}
+	.h_theLogo .ad00{width:120px;margin-left:30px;float:left}
+	#h_f_logo{width:128px;height:25px}
+	
+	/*导航*/
+	.mil_col{width:100%;margin:0 auto}
+	.bg01{background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/nav_bg01_b368ba56.gif) repeat-x center top}
+	.col_nav{background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/nav_bg01_b368ba56.gif) repeat-x;height:40px}
+	.col_nav ul{background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/nav_bg02_d247c872.gif) left top no-repeat;height:40px;overflow:hidden}
+	.col_nav ul li{font-size:14px;height:40px;line-height:40px;background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/nav_bg02_d247c872.gif) right top no-repeat;padding:0 17px;float:left}
+	.col_w1000{ width:1000px; margin:0 auto; overflow:hidden;}
+	.col_w1000 .col_nav ul li a{ color:#FFF;}
+	.col_w1000 .col_nav ul li a:hover{color:#66ccff;text-decoration:none}
+	.col_nav ul .pa01{padding:0 36px}
+	.col_w1000 .col_nav ul .pa01 a{color:#66ccff}
+	
+	.box_1_left{ width:400px; float:left}
+	.box_1_right{ width:570px; float:right;}
+	.box_1_a h1,.box_1_a h2{ line-height:22px; padding-bottom:12px;}
+	.col_w1000  .box_1_a h1 a,.col_w1000  .box_1_a h2 a{ font-size:20px; color:#333333; font-family:Microsoft Yahei;}
+	.col_w1000  .box_1_a h1 a:hover,.col_w1000  .box_1_a h2 a:hover{ text-decoration:none; color:#f54343;}
+	.box_1_a p{ line-height:28px;}
+	.col_w1000  .box_1_a p a{ font-size:14px; color:#333333;}
+	.col_w1000  .box_1_a p a:hover{ color:#f54343;}
+	.col_w1000  .box_1_a p.r_ad a{ font-size:14px; color:#7ca7c9;}
+	.title_1{ height:28px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_04_401595b3.jpg) no-repeat left bottom;line-height:20px; margin-bottom:14px;}
+	.col_w1000  .title_1 a{ font-size:18px; color:#227bd9; font-family:Microsoft Yahei; text-decoration:none; }
+	.col_w1000  .title_1 a:hover{ color:#f54343;}
+	.box_1_b_list{ width:190px; padding-bottom:25px;}
+	.box_1_b_list img{ display:block;}
+	.box_1_b_list p{ line-height:24px; padding-top:10px;}
+	.col_w1000  .box_1_b_list p a{ font-size:14px; color:#333333;}
+	.col_w1000  .box_1_b_list p a:hover{ color:#f54343;}
+	.r_ad_02 ul li{width:190px; line-height:24px;}
+	.col_w1000  .r_ad_02 ul li a{ font-size:12px; color:#7ca7c9;}
+	
+	/*焦点图*/
+	.fpic{width:570px;height:332px;position:relative;overflow:hidden;margin-top:2px}
+	.bigPic03{width:570px;height:332px;overflow:hidden}
+	.bigPic03 img{display:block;width:570px;height:332px}
+	.fpic .text{width:570px;height:50px;background:#000;position:absolute;bottom:0;left:0;filter:alpha(opacity=50);opacity:.5}
+	.fpic p{font:bold 16px Microsoft YaHei;color:#fff;position:absolute;width:388px;height:50px;line-height:50px;bottom:0;_bottom:0;left:12px}
+	.cWhite a{font-size:18px;font-family:Microsoft YaHei;font-weight:normal; color:#FFF;}
+	.dotList{position:absolute;height:3px;top:270px;right:0;overflow:hidden}
+	.dotList li{float:left;width:15px;height:3px;background:#f7f7f7;margin:0 7px 0 0;display:inline;cursor:pointer}
+	.dotList li.current{background:#f54144}
+	#prevSlide,#nextSlide{width:40px;height:50px;position:absolute;top:140px;left:10px;z-index:10;text-align:center;cursor:pointer}
+	#prevSlide img,#nextSlide img{position:absolute;top:8px;left:12px;z-index:12}
+	.btnBg{width:40px;height:50px;filter:alpha(opacity=60);-moz-opacity:.6;opacity:.6;background:#000;position:absolute;left:0;top:0;z-index:11}
+	.btnBgHover{width:40px;height:50px;filter:alpha(opacity=100);-moz-opacity:1;opacity:1;background:#000;position:absolute;left:0;top:0;z-index:11}
+	#nextSlide{left:520px}
+	#nextSlide img{left:15px}
+	
+	
+	.trans{transition:all .3s ease;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;-webkit-backface-visibility:hidden}
+	.trans:hover{transform:scale(1.04,1.04);-ms-transform:scale(1.04,1.04);-webkit-transform:scale(1.04,1.04)}
+	
+	.col_w670 { width:670px; overflow:hidden;}
+	.col_w300{ width:300px; overflow:hidden;}
+	.w400{ width:400px; overflow:hidden;}
+	.w240{ width:240px; overflow:hidden;}
+	.w300{ width:300px; overflow:hidden;}
+	.title_2{  line-height:18px; padding-bottom:8px; border-bottom:2px solid #cccccc;margin-bottom:9px;}
+	.col_w1000  .title_2 a{font-size:16px; color:#333333; font-family:Microsoft Yahei; text-decoration:none; }
+	.col_w1000  .title_2 a:hover{ color:#f54343;}
+	.jstj p{ line-height:30px; height:30px; overflow:hidden;}
+	.col_w1000  .jstj p a{ color:#333333; font-size:14px;}
+	.col_w1000  .jstj p a:hover{ color:#f54343;}
+	.list04{ height:36px; line-height:36px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/menu_bg_m_e67bb02c.gif) repeat-x; margin-top:4px;}
+	.list04 li{ background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/menu_bg_m_e67bb02c.gif) repeat-x; color:#2b2b2b; width:98px; text-align:center; margin-right:2px; float:left; cursor:pointer;}
+	.list04 li a{ font-size:14px; color:#333333;}
+	.list04 .hover{ font-weight:bold; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/menu_bg_h_113d4122.gif) no-repeat;}
+	.list04 .hover a{ color:#237cd6; font-weight:bold;}
+	.list05{ margin-top:8px;}
+	.list05 li{ height:41px; line-height:41px; border-bottom:1px solid #ededed; overflow:hidden;}
+	.list05 li a{ color:#2b2b2b;}
+	.list05 li span{ float:left; display:block; width:10px; height:10px; line-height:10px; overflow:hidden; color:#999999; border:1px solid #999999; margin-top:14px; margin-right:10px; text-align:center;}
+	.list05 li span.bule_q{ color:#FFF; background:#247bd8; border:1px solid #247bd8;}
+	.list05 .bn{ background:none;}
+	
+	.y_ad_1 a img{ display:block;}
+	
+	.list01{ margin-top:14px; overflow:hidden;}	
+	.list01 li{height:29px; line-height:29px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_10_8a33d894.jpg) no-repeat left center; padding-left:17px; overflow:hidden;}
+	.list01 li a{ color:#333333; font-size:14px; }
+	.list01 li a:hover{ color:#f54343;}
+	.col_w1000  .list01 li.font18{ padding-bottom:6px;}
+	.col_w1000  .list01 li.font18 a{ font-size:18px;font-family:Microsoft Yahei;}
+	.col_w1000  .list01 li.font18 a:hover{ text-decoration:none; color:#f54343;}
+
+	.list01 li span{ font-size:12px; color:#999; float:right;}
+	.title_3{ line-height:20px; padding-bottom:12px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_09_9f62f7d4.jpg) no-repeat left bottom;}
+	.col_w1000  .title_3 a{font-size:20px; color:#237bd5; font-family:Microsoft Yahei; text-decoration:none; }
+	.col_w1000  .title_3 a:hover{ color:#f54343;}
+	.title_4{ line-height:20px; padding-bottom:12px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_11_d2388d05.jpg) no-repeat left bottom;}
+	.col_w1000  .title_4 a{font-size:20px; color:#237bd5; font-family:Microsoft Yahei;  text-decoration:none;}
+	.col_w1000  .title_4 a:hover{ color:#f54343;}
+	.title_5{ font-size:18px; color:#333333; line-height:18px; padding-bottom:8px; border-bottom:2px solid #cccccc; font-family:Microsoft Yahei; margin-bottom:9px;}
+	
+	.box_2_b a img{ display:block;}
+	.box_2_b p{ line-height:32px; height:32px; overflow:hidden;}
+	.col_w1000 .box_2_b p a{ font-size:12px; color:#333333;}
+	.col_w1000 .box_2_b p a:hover{}
+	.box_2_b{ margin-top:21px;}
+	
+	.list07{ }
+	.list07 li{ height:73px; padding:15px 0 14px 0; border-bottom:1px solid #ccc; position:relative;}
+	.list07 .pic{ width:100px; height:70px; overflow:hidden; float:right; margin-top:4px;}
+	.list07 .pic img{ display:block;}
+	.list07 .txt{ width:170px;  line-height:22px; float:left;}
+	.list07 .txt a{ font-size:14px; color:#2b2b2b;}
+	.list07 .txt span{ display:block; color:#999999; margin-top:8px;}
+	.list07 .txt img{ display:block;}
+	.list07 .bn{ border:none;}
+	.share_hide02{position:absolute; left:152px; top:70px; display:block;background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/list05_ccbc2adf.gif) no-repeat; width:30px; height:20px; cursor:pointer;}
+	.share_hide02 span{color:#999999; font-size:12px;text-decoration:none; cursor:pointer;}
+	#bdshare{padding-bottom:0 !important;z-index:5;}
+	.share-bar-btn01{width:36px!important;position:absolute;display:none;height:64px;border:1px solid #cfcfcf;right:-10px;top:20px; background:#fff;}/*150908a*/
+	.share-bar-btn01 a{float:left;display:block;width:36px!important;height:32px!important;margin:0!important;padding:0!important;background:url(http://y1.ifengimg.com/38716b164e0f5e63/2014/0329/sharebg.gif) no-repeat!important;opacity:1.0!important;filter:alpha(opacity=100)!important;}
+	.share-bar-btn01 .bds_tsina{background-position:0 0!important;}
+	.share-bar-btn01 a.bds_tsina:hover{background-position:0 -96px!important;opacity:1!important;filter:alpha(opacity=100)!important;}
+	.share-bar-btn01 .bds_qzone{background-position:0 -32px!important;}
+	.share-bar-btn01 a.bds_qzone:hover{background-position:0 -128px!important;opacity:1!important;filter:alpha(opacity=100)!important;}
+	.share-bar-btn01 .bds_tqq{background-position:0 -64px!important;}
+	.share-bar-btn01 a.bds_tqq:hover{background-position:0 -160px!important;opacity:1!important;filter:alpha(opacity=100)!important;}
+	
+	.zzls{ border-bottom:1px solid #e8e8e8; padding:10px 0 20px 0;}
+	.zzls .pic{ width:100px; height:70px; overflow:hidden; float:left;}
+	.zzls .pic img{ display:block;}
+	.zzls .txt{ font-size:14px; font-weight:bold; color:#2b2b2b; line-height:22px; width:180px; padding-top:10px; float:right;}
+	.col_w1000 .zzls .txt a{color:#2b2b2b;}
+	.col_w1000 .zzls .txt a:hover{ color:#f54343; text-decoration:none;}
+	.list011{ margin-top:15px; overflow:hidden;}
+	.list011 li{ font-size:12px; height:26px; line-height:26px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_10_8a33d894.jpg) no-repeat left center; padding-left:17px; overflow:hidden;}
+	.col_w1000 .list011 li a{ color:#2b2b2b;}
+	.col_w1000 .list011 li a:hover{ color:#f54343;}
+	.list011 li span{ font-size:12px; color:#999; float:right;}
+	.box_2_d{ width:218px; height:90px; padding:6px 48px 10px 34px;}
+	.box_2_d .txt{ font-size:14px; color:#2b2b2b; line-height:26px; text-align:center; padding-top:20px; float:left;}
+	.box_2_d .pic{ width:88px; float:right;}
+	
+	
+.col_lm{ width:670px; float:left;}
+.col_r{ width:300px; float:right;}
+.ad img{ display:block;}
+.bg03{ background:#f5f5f5 url(http://y1.ifengimg.com/38716b164e0f5e63/2014/0329/bg_b.gif) repeat-x left top;}
+.space01{ height:26px; overflow:hidden;}
+.box_13{ background:url(http://y1.ifengimg.com/38716b164e0f5e63/2014/0329/bg_b02.gif) repeat-y;}
+.box_13_1{ overflow:hidden;}
+.box_13_2{ margin:6px 0 0 14px;}
+.title03{ font-size:20px; font-family:"微软雅黑"; font-weight:bold; color:#666; height:30px; line-height:30px;}
+.box_13 .list_hz{ margin-top:8px; overflow:hidden;}
+.box_13 .list_hz li{ height:28px; line-height:28px;}
+.box_13 .list_hz li a{ color:#999;}
+.box_13 .list_hz li span{ color:#999; padding:0 6px 0 6px;}
+.box_13 .box_con{ width:192px; float:left;}
+.box_13 .box_con .b_logo{ width:150px; height:37px;}
+.box_13 .box_con .b_logo a,.box_13 .box_con .b_logo img{ display:block;}
+.box_13 .box_con ul{ margin-top:8px; overflow:hidden;}
+.box_13 .box_con ul li{ color:#999; height:26px; line-height:26px; overflow:hidden;}
+.box_13 .box_con ul li a{color:#999;}
+.box_13 .box_con ul li img,.box_13 .box_con ul li span{ float:left;}
+.box_13_2 .wx{ width:91px; height:103px; float:left; overflow:hidden;}
+
+
+.title_6{ width:1000px; height:32px; line-height:20px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_15_1b1d69e5.jpg) no-repeat left bottom; }
+.col_w1000 .title_6 a{ color:#237cd8; font-size:20px; font-family:Microsoft Yahei; text-decoration:none; }
+.col_w1000 .title_6 a:hover{ color:#f54343;}
+.title_7{ width:1000px; height:32px; line-height:20px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/mil_18_d4aafdbe.jpg) no-repeat left bottom; color:#237cd8; font-size:20px; font-family:Microsoft Yahei;}
+.col_w1000 .title_7 a{color:#237cd8; font-size:20px; font-family:Microsoft Yahei; text-decoration:none;}
+.col_w1000 .title_7 a:hover{ color:#f54343;}
+.list09{ padding:15px 0 0 0px; width:1040px; overflow:hidden;}
+.list09 li{ width:176px; margin-right:30px; float:left;}
+.list09 .pic{ width:176px; height:120px; position:relative; overflow:hidden;}
+.list09 .pic img{ width:176px; height:120px; overflow:hidden;}
+.list09 .txt{ font-size:14px;line-height:24px; margin-top:9px; overflow:hidden;}
+.col_w1000 .list09 .txt a{ color:#2b2b2b;}
+.col_w1000 .list09 .txt a:hover{ color:#f54343;}
+.list09 li .video{ display:block; width:21px; height:21px; background:url(http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/images/video02_923f6304.png) no-repeat; _background:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://p0.ifengimg.com/fe/news_ifeng_com_mil_index/styles/images/video02.png', sizingMethod='crop'); position:absolute; left:0px; bottom:0px;}
+
+.list10{margin-top:18px; width:1040px;}
+.list10 li{ width:139px; margin-right:33px; float:left;}
+.list10 .pic{ width:139px; height:200px; overflow:hidden;}
+.list10 .pic img{ display:block; margin:2px;}
+.list10 .txt{ line-height:24px; margin-top:9px; overflow:hidden;}
+.list10 .txt a{ color:#2b2b2b; font-size:14px; font-weight:bold;}
+.list10 .txt a:hover{ color:#f54343;}
+.list10 .txt span{ color:#999999; font-size:12px;}
+
+	

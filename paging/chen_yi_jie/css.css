@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:hsla(100,100%,100%,1.00);
+	}
+#shouhang li{writing-mode:lt-tb;
+background-color:hsla(0,0%,78%,1.00);
+float:left;
+width:60px;
+height:100%;
+}

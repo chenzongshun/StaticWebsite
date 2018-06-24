@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+*{      /*将所有的DIV的内外边距都设置为0像素*/
+	margin:0px; padding:0px;}
+	
+.top ul li{
+float:left;/*向左浮动*/
+display:inline-block;		/*将无序列表中的列表项变成方块，并且成行显示*/
+width:200px;	/*既然变成了方块，那么就会有宽和高的属性*/	
+height:80px;
+margin-top:9px;
+padding:7px 0px 0px 0px ;
+background:url(../%E5%9B%BE%E7%89%87/menuBg.jpg) repeat-x;}
+
+.top ul li a{
+	padding-top:0px;
+	text-decoration:none;
+	color:#000000;
+	padding:5px 0px 0px 0px;}
+	
+.top a:hover{
+	text-decoration:underline;
+	color:#E4DADA;
+	text-decoration:none;}
+	
+.top{
+background:url(../%E5%9B%BE%E7%89%87/menuBg.jpg) repeat-x;
+	height:80px;
+	margin-top:30px;
+	width:100%;}
+.head{
+	float:left;}
+	
+.wo{
+	width:80px;
+	height:100px;}
+	
+.up a{
+	text-decoration:none;
+	display:inline-block;
+	width:200px;}
+	
+.up a:hover{
+	text-decoration:none;
+	color:red;}
+	

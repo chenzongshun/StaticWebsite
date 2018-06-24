@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:hsla(100,100%,100%,1.00);
+	height:700px;
+	weight:1200px;
+	background-image:url(bkimg.jpg)
+	}
+#123{
+	writing-mode:lt-tb;
+	background-color:hsla(0,100%,78%,1.00);
+	float:left;
+	width:300px;
+	height:10px;
+}
+.xinwenkaishile{
+	height:700px;
+	weight:1200px;
+	text-align:center;
+	float:left;}
+#shouhang{
+	width:auto;
+}
+li{
+	writing-mode:lt-tb;
+	float:left;
+	width:100px;
+	display:inline-block;
+	text-align:center; 
+	text-color:white;
+	background-color:#C60003;
+}
+#fanye{
+	text-align:center;
+	font-color:hsla(0,0%,78%,1.00);
+	height:20px;
+	float:center;
+}
+p{
+	height:auto;
+	weight:400px;
+	}
+#shouhang a{
+	text-decoration:none;
+	font-size:24px;
+	color:#FFFFFF;
+	}

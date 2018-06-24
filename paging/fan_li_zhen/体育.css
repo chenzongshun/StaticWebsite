@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;}
+	
+.top{
+	height:50px;
+	background:url(picture%20%20me/menuBg.jpg) repeat-x;}
+		
+.topzi{
+	float:right;}
+
+.zhongbu{
+	text-align:center;}
+	
+.topright{
+	padding-left:1200px;}
+	
+.right{
+	float:right;}
+	
+.up{}
+
+.subtitle{
+	padding:10px;}
+	
+.shi{
+	padding-left:110px;}
+	
+.list li{
+	font-size:16px;
+	background-color:#D0C6C6;
+	width:8%;
+	list-style:none;
+	display:inline-block;			/*把li标签横着放，并且变成方块，方块有宽和高*/
+	padding-left:50px;}
+
+
+.list li a{
+	text-decoration:none;
+	color:#000000;}	
+
+.all{
+	margin:0px auto;
+	width:100%;}
+
+.dibu_biaoge{
+	background-color:#EFEFEF;
+	float:left;
+	width:25%;
+	text-align:center;}
+
+.dibu_biaoge td{
+	width:28%;}
+
+.dibu_biaoge_zong{
+	text-align:center;}
+	
+.dibuwenzi{
+	background-color:#949494;}
+	
+.dibuwenzi a{
+	color:#D6D6D6;}
+	
+.dibuwenzi a:hover{
+	color:red;
+	font-weight:bold;}

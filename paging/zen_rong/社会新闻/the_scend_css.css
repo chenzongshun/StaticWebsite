@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.right a{
+	text-decoration:none;}
+
+.left{
+	float:left;
+	width:13%;}
+	
+.right{
+	float:right;
+	margin-left:250x;
+	padding-top:20px;
+	width:400px;}
+	
+.right a:hover{
+	color:#F00;}
+	
+.body_left{
+	float:left;
+	width:60%;
+	height:1157px;
+	line-height:40px;}
+	
+.body_right{
+	float:right;
+	width:40%}
+	
+.under a{
+	text-decoration:none;}
+	
+.under a:hover{
+	color:#F00;}

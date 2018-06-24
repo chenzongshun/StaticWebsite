@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav{
+text-align:center;}
+#nav a{
+color:#660066;
+text-decoration:none;}
+#nav a:hover{
+text-decoration:none;
+color:#FF0000;}
+
+.top01{
+	background:url(../%E5%9B%BE%E7%89%87/topbg.gif) repeat-x;
+	background-repeat:repeat-x;
+	text-align:right;		/*文本水平对齐方式为右   valign垂直对齐（目前只知道只在表格内使用）*/
+	height:32px;
+	width:100%;
+	text-decoration:none;}
+.top01 a:hover{
+	color:#F00;}
+.top {
+text-align:center;}
+
+.up1 a{
+	text-decoration:none;
+	display:inline-block;}
+.up1 a:hover{
+	color:#F30749;}
+	
+.Qi{
+	float:right;}
+
+	

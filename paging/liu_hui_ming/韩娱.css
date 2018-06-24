@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;}
+	
+body{
+	background:url(%E5%9B%BE%E7%89%87/tttttttt.PNG) no-repeat;
+	background-color:#F1EBE9;}
+	
+.frist{
+	float:right;
+	padding-top:0px;}
+.top ul{
+	float:right;
+	padding-top:25px;}
+	
+.one a{
+	color:#333;
+	text-decoration:none;}
+	
+.one a:hover{
+	text-decoration:none;
+	color:#F00;}
+.aa {
+	padding-left:250px;}
+.bb{
+	padding-left:250px;}
+.cc{
+	padding-left:150px;
+	width:300px;
+	margin-left:100px;
+	line-height:40px;
+	height:80px;
+	background:url(%E5%9B%BE%E7%89%87/360%E6%88%AA%E5%9B%BE20161218111852730.jpg) repeat-x  ;}
+	
+.ee{
+	background:url(%E5%9B%BE%E7%89%87/360%E6%88%AA%E5%9B%BE20161214172706109.jpg);
+	width:80%;
+	margin:0px auto;}
+
+.ff{
+	background:url(%E5%9B%BE%E7%89%87/360%E6%88%AA%E5%9B%BE20161214172706109.jpg);
+	width:80%;
+	margin:0px auto;}
+
+. dd a{
+		text-align:center;
+	text-decoration:none;}
+
+. dd a:hover{
+	color:#00C;}
+.pinuocao{
+	text-align:center;
+	float:left;}
+.pinuocao dd a{
+	text-decoration:none;}
+.pinuocao dd a:hover{
+	color:#F00;}
+.shengyin dd a{
+	text-decoration:none;}
+.shengyin dd a:hover{
+	color:#F00;}
+.shijie dd a {
+	text-decoration:none;}
+.shijie dd a:hover{
+	color:#F00;}
+.yixiangren{
+	float:left;
+	margin-left:20px;
+	text-align:center;}
+.yixiangren dd a {
+text-decoration:none;}
+.yixiangren dd a:hover{
+color:#FF0000;s}
+
+.dianshi{
+	width:10%;
+	float:left;}
+	
+.shijie{
+	text-align:center;
+	float:left;
+	margin-left:116px;}
+	
+.{
+	width:30%;
+		border:1px solid red;
+	float:left;}
+	
+.shengyin{
+	text-align:center;
+	width:40%;
+	float:left;
+	padding-left:80px;}
+	
+	
+.ziti{
+	float:left;}
+	
+	
+	
+.qiwei{
+	width:200px;
+	float:left;
+	}	
+.qiwei dt{
+	float:left;
+	padding-right:15px;}
+
+.qiwei dd a{
+	text-align:center;
+	text-decoration:none;}
+.qiwei dd a:hover{
+	color:#FF0000;}
+.piaoxinhui{
+	float:left;
+	padding-left:80px;}
+.piaoxinhui dd a{
+	text-decoration:none;}
+.piaoxinhui dd a:hover{
+	color:#FF0000;}
+	
+.liminhao{
+	float:left;
+	padding-left:80px;}
+.liminhao dd a{
+	text-decoration:none;}
+.liminhao dd a,a:hover{
+	color:#0000FF;}
+
+.zhengshuang dd a{
+	text-decoration:none;}
+.zhengshuang dd a:hover{
+	color:#FF0000;}
+.over{
+text-align:center;
+font-size:12px;s}
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,790 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0px; padding:0px;} /*所有的div的内外边距都是0像素*/
+
+.dinbu{
+	float:left;
+	width:100%;}
+
+.logokuang{		 /*logo框*/
+	width:400px;
+	float:left;
+	padding-top:20px;
+	margin-left:150px;}
+
+.logo{	 /*logo图*/
+	margin-left:100px;
+	float:left;}
+	
+.xiaologo{		/*小logo*/
+	float:left;
+	height:53px;}
+
+.jinrihuati{	 /*今日话题*/
+	margin:auto;}
+
+.logo h1{
+	font-size:100px;}
+	
+.dinbuyoubian{	 /*顶部右边 放了关于我们还有登录框*/
+	width:250px;
+	float:right;}
+
+	
+.sousuo{
+	margin-top:20px;}
+
+.sousuokuangyangshi{			 /*搜索框样式*/
+	margin-left:380px;
+	width:700px;
+	float:left;
+	height:35px;}
+	
+.guanyuwomen{				/*关于我们*/
+	color:#CCCCCC;
+	height:20px;
+	font-size:12px;
+	float:right;}
+	
+.guanyuwomen a{
+   color:#CCCCCC;
+   text-decoration:none;}
+
+.guanyuwomen a:hover{		/*悬浮加下划线*/
+   color:#CCCCCC;
+   text-decoration:underline;}
+
+.sousuoanniuzi{
+	width:35px;
+	height:35px;}
+
+.sousuoanniuzi a{
+   text-decoration:none;
+   color:#00FF00;
+   font-weight:bold;}
+
+.sousuoanniu{			/*搜索按钮的图标*/
+   float:left;
+   margin-left:20px;
+   height:35px;}
+
+.clear{				/*分隔区域*/
+	height:20px;
+	clear:both;}
+	
+.zucezongbu{			/*左侧总部分*/
+	width:13%;
+	float:left;
+	height:6210px;}
+	
+.dibushubiao:hover{
+	cursor:url(../picture/ico/dibu.ico),deflut;
+	height:500px;}
+	
+.zucezongbu:hover{
+	cursor:url(../picture/ico/zuo.ico),deflut;}
+
+.zhongjianzongbu{			/*中间总部分*/
+	height:200px;
+	width:74%;
+	float:left;}
+	
+.youcezongbu{			/*右侧总部分*/
+	width:13%;
+	float:right;
+	height:100%;}
+	
+.wangyezongbuheizi{			/*网页中间总盒子*/
+	width:100%;
+	float:left;}
+  
+.zjxw{				/*这里是最近的新闻*/
+	width:100%;}
+	
+.denglukuang{			/*登陆框*/
+	font-weight:bold;
+	font-size:14px;
+	width:210px;
+	float:right;
+	clear:both;
+	margin-top:20px;
+	height:130px;}
+	
+.zuixinzhuantidezi{			/*最新专题四个字*/
+	text-decoration:none;}
+	
+.zuixinzhuantidezi a:hover{
+	text-decoration:underline;}
+	
+.yonghuming{		/*用户名*/
+	margin-bottom:10px;
+	width:120px;}
+	
+.tijiaoquyu{		/*提交按钮*/
+	margin-top:15px;
+	padding-left:25px;}
+	
+.tijaoanniu{
+	height:20px;
+	width:40px;}
+	
+.imgfudongfada:hover{		/*悬停放大图片*/
+	width:700px; height:600px;
+	transition: all 0.5s;}
+
+.cf{		/*cf视频框*/
+	text-align:right;
+	width:100%;}	
+
+.czh{					/*陈子豪*/
+	margin:auto;
+	text-align:center;
+	float:left;}
+	
+.czh embed:hover{
+	width:1100px;
+	height:520px;}
+	
+.zuixinzhuanti{				/*最新专题框*/
+	width:100%;}
+	
+.zuixinzhuantileft{			/*最新专左题框*/
+	width:75%;
+	float:left;
+	height:464px;
+	border:1px solid #CCCCCC;}
+	
+.zuixinzhuantiright{
+	width:24%;
+	float:right;
+	border:1px solid #CCCCCC;}
+
+a:hover{
+	text-decoration:underline;}
+
+.yitiaoxinwentupian{
+	margin:20px auto;}
+	
+.zuixinzhuantiwenzibiaoti{
+	background:url(../picture/zuixinzhuntibeijin.png) repeat-x;
+	height:40px;}
+	
+.zuixinzhuantizuocenirong a:hover{}
+	
+a span:hover{
+	text-decoration:none;}
+	
+.zuixinzhuantizuocenirong a{
+	text-decoration:none;}
+	
+.zuixinzhuantizuocenirong a:hover{
+	text-decoration:underline;}
+
+.yulehenfu{		/*娱乐横幅*/
+	background-color:#DD3635;
+	text-align:center;}
+	
+.yulehenfu li{
+	display:inline-block;
+	width:82px;}
+.yulehenfu li:hover{
+	background-color:#261C1C;}
+	
+.yulehenfu li a{
+	font-weight:bold;
+	line-height:55px;
+	text-decoration:none;
+	color:#FFFCCC;}
+	
+.yulehenfu li a:hover{
+	color:red;
+	font-weight:bold;
+	text-decoration:underline;}
+	
+.qiushibaikehenfu{		/*糗事百科的横幅*/
+	background:url(../picture/%E6%88%AA%E5%9B%BE1481736749.png) no-repeat;
+	-webkit-background-size:100%;}
+	
+.qiushibaikehenfu li{
+	display:inline-block;
+	text-align:center;
+	width:86px;}
+	
+.qiushibaikehengfuwnzi{
+	margin-left:250px;}
+	
+.qiushibaikehengfuwnzi a{
+	color:#7A4624;
+	line-height:77px;
+	text-decoration:none;
+	font-size:18px;}
+	
+.qiushibaikehenfu li:hover{
+	background-color:#FFE36F;}
+	
+.qiuzuo{		/*糗事左*/
+	margin-right:10px;
+	float:left;}	
+	
+.qiuyouo{		/*糗事右*/
+	float:right;}	
+	
+	
+.youxishipinkuang{				/*游戏视频总框*/
+	margin:50px auto;}
+
+.youxishipinkuangdebiaoti{			/*游戏视频标题*/
+	background-color:#ffffff;}
+
+.youxishipinkuangdebiaoti:hover{
+	background-color:#C5BC61;}
+	
+.youxishipinkuangdebiaoti_zuixinshipingzi{
+	width:220px;
+	text-align:center;
+	float:left;
+	line-height:40px;}
+
+.youxishipinkuangdebiaoti_zuixinshipingzi:hover{
+	background:#87dd79;}
+	
+.youxishipinkuangdebiaoti_zuixinshipingzi a{
+	text-decoration:none;
+	color:#666666;
+	font-family:华文宋体;
+	font-weight:bold;
+	font-size:26px;}
+	
+.youxishipinkuangdebiaoti_zuixinshipingzi a:hover{
+	text-decoration:underline;}
+	
+.youxishipinkuangdebiaoti_zuixinshipingzi_you{
+	margin-left:280px;
+	color:#666666;
+	font-size:14px;
+	line-height:40px;}
+	
+.youxishipinkuangdebiaoti_zuixinshipingzi_you a{
+	color:#666666;
+	font-size:16px;
+	text-decoration:none;}
+	
+.youxishipinkuangdebiaoti_zuixinshipingzi_you a:hover{
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;}
+	
+.youxi_neirong{		/*游戏小内容*/
+	width:25%;
+	float:left;
+	text-align:center;
+	padding-top:20px;}					/*margin-right:11px;游戏小内容*/
+	
+.youxi_neirong:hover{
+	background-color:#D9D9D9;}
+	
+.youxi_neirong li{
+	list-style:none;}
+
+.youxi_neirong a{
+	font-size:14px;
+	line-height:35px;
+	color:#333333;
+	text-decoration:none;}
+	
+.youxi_neirong a:hover{
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:underline;}
+
+.tiyu_biaotibeijing{		/*体育背景*/
+	background:url(../picture/截图1481850963.png) no-repeat;
+	-webkit-background-size:100%;
+	overflow:hidden;			/*隐藏溢出部分*/
+	height:55px;}
+
+.tiyu_biaotibeijingwezi li{	
+	display:inline-block;
+	float:right;
+	text-align:center;
+	width:11%;;}
+	
+.tiyu_biaotibeijingwezi li:hover{
+	font-weight:bold;}
+
+.tiyu_biaotibeijingwezi{			/*装体育新闻四个字*/
+	width:80%;
+	float:right;}
+
+.tiyu_biaotibeijing_dazi{
+	float:left;
+	width:18%;
+	text-align:center;}
+
+.tiyu_biaotibeijing_dazi:hover{
+	background-color:#B1831D;}
+	
+.tiyu_biaotibeijing_dazi a{
+	color:#FFFFFF;
+	font-size:30px;
+	font-weight:bold;
+	line-height:55px;
+	text-decoration:none;}
+
+.tiyu_biaotibeijingwezi li:hover{
+	background-color:red;}
+
+.tiyu_biaotibeijingwezi li a{
+	text-decoration:none;
+	line-height:55px;
+	font-size:16px;
+	color:#FFFFFF;}
+	
+.tiyu_zong_neirong{     /*体育总内容开始*/}
+
+.tiyu_zong_neirong_zuo{     /*体育总内容的左侧开始*/
+	background:url(../picture/Cbum-fxytyzp4750567.jpg) no-repeat;
+	position:relative;
+	-webkit-background-size:100%;
+	height:430px;}
+	
+.tiyu_zong_neirong_zuo1{
+	height:430px;
+	position:relative;
+	background:url(../picture/gde--fxyyfqs4213229.jpg) no-repeat;
+	-webkit-background-size:100%;}
+	
+.tiyu_zong_neirong_zuo_zong{
+	width:70%;
+	float:left;}
+	
+.tiyu_zong_neirong_zuo_zi{
+	margin-top:300px;
+	width:100%;
+	line-height:55px;
+	position:absolute;
+	bottom:0px;
+	text-indent:2em;
+	height:55px;
+	background:url(../picture/截图1481882900.png) repeat-x;
+	font-size:24px;}
+	
+.tiyu_zong_neirong_zuo_zi a{
+	text-decoration:none;
+	color:#FFFFFF;}	
+
+.tiyu_zong_neirong_zuo_zi a:hover{
+	text-decoration:underline;}	
+	
+.tiyu_zong_neirong_you{    /*体育总内容的右侧开始*/
+    font-size:14px;
+	overflow:hidden;
+	padding-left:15px;
+	line-height:30px;			    /*滚动行高*/
+	height:870px;}
+
+.tiyu_zong_neirong_you a{
+	color:#000000;
+	text-decoration:none;}
+
+.tiyu_zong_neirong_you a:hover{
+	color:red;
+	font-weight:bold;
+	text-decoration:underline;}
+	
+/*
+      <div class="cf">			<!--小视屏框架开始了-->
+		<div class="czh"><embed src="video/陈子豪CF超长解说：7把黑龙虐僵尸！.MP4">		<!--这里放小视屏--></div>
+		<div class="czh" style="float:left; padding-left:60px;"><embed src="video/陈子豪CF超长解说：7把黑龙虐僵尸！.MP4">		<!--这里放小视屏--></div>
+		<div class="czh" style="float:right;"><embed src="video/陈子豪CF超长解说：7把黑龙虐僵尸！.MP4">		<!--这里放小视屏--></div>
+      </div>			<!--小视屏框架结束了-->
+  <div class="clear"></div>
+*/
+
+.shehuixinwen_biaotihengfu{		/*社会新闻的标题横幅*/
+	background:url(../picture/ff.png) repeat-x;
+	height:52px;}
+
+.shehuixinwen_biaotihengfu_wenzi a{			/*社会新闻的标题上面的文字*/
+	font-size:26px;
+	color:#000000;
+	text-decoration:none;
+	line-height:50px;
+	margin-left:30px;
+	font-family:微软雅黑;}
+
+.shehuixinwen_biaotihengfu_wenzi a:hover{
+	text-decoration:underline;
+	color:#FFFFFF;
+	font-weight:bold;}
+	
+.shehuixinwen_biaotihengfu_wenzi{
+	width:20%;
+	float:left;}
+	
+.shehuixinwen_biaotihengfu_wenzi:hover{
+	background-color:#A8C54D;}
+	
+.shehuixinwen_biaotihengfu_wenzi_you li{		/*社会新闻的标题上面右边的小文字*/
+	display:inline-block;
+	float:left;
+	width:9%;}
+	
+
+.shehuixinwen_biaotihengfu_wenzi_you a{
+	line-height:52px;
+	font-size:14px;
+	text-decoration:none;}
+	
+.shehuixinwen_biaotihengfu_wenzi_you a:hover{
+	font-weight:bold;
+	color:red;
+	text-decoration:underline;}
+	
+.shehuixinwen_biaotihengfu_wenzi_you{
+	width:70%;
+	padding-left:10px;
+	float:right;}
+	
+.shehuixinwen_zongneirong{}
+	
+.shehuixinwen_zongneirong_zuo{			/*社会新闻总内容中的左侧*/
+	width:70%;
+	float:left;}
+	
+.shehuixinwen_zongneirong li{
+	list-style:none;}
+
+.shehuixinwen_zongneirong_zuo_1{
+	width:10%;
+	color:#4a5265;
+	float:left;}
+	
+.shehuixinwen_zongneirong{
+	font-size:14px;
+	line-height:30px;}	
+		
+.shehuixinwen_zongneirong_zuo_2{
+	float:left;
+	width:70%;}
+		
+.shehuixinwen_zongneirong_zuo_2 a{
+	font-size:14px;
+	color:#333333;
+	text-decoration:none;}
+
+.shehuixinwen_zongneirong_zuo_2 a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+	color:red;}
+
+.shehuixinwen_zongneirong_zuo_3{
+	width:15%;
+	color:#919191;
+	text-align:left;
+	float:right;}
+	
+.shehuixinwen_zongneirong_you{			/*社会新闻总内容中的右侧*/
+	width:30%;
+	float:right;
+	padding-top:20px;
+	height:200px;}
+	
+.shehuixinwen_zongneirong_you a{	/*社会新闻总内容中的右侧的视觉焦点四个字*/
+	color:#000000;
+	font-size:26px;
+	text-decoration:none;}
+	
+.shehuixinwen_zongneirong_you a span{
+	color:#4C9DCE;}
+	
+.shehuixinwen_zongneirong_you a:hover{
+	color:red;
+	font-weight:bold;}
+
+.shijuejiaodian_8xiaoneirong a{
+	font-size:14px;}
+
+.shijuejiaodian_8xiaoneirong dl{
+	text-align:center;
+	margin-bottom:12px;
+	margin-left:10px;
+	float:left;}
+	
+.shijuejiaodian_8xiaoneirong dl:hover{
+	background-color:#E4CFD0;}
+	
+.kjxw_henfu_tupain{		/*科技横幅*/
+	width:19%;
+	float:left;}
+
+.kjxw_henfu_wenzi li a{
+	text-decoration:none;
+	color:#A07B7C;}
+	
+.kjxw_henfu_wenzi li:hover{
+	background-color:#5A9F2A;}
+	
+.kjxw_henfu_wenzi li a:hover{
+	color:red;
+	font-weight:bold;}
+	
+.kjxw_henfu_wenzi li{
+	margin-top:30px;
+	display:inline-block;
+	width:6%;
+	line-height:25px;
+	text-align:center;}
+	
+.kjxw_henfu_wenzi{
+	text-align:right;
+	width:81%;
+	float:right;}
+
+.kjxw_neirong{
+	padding-left:20px;}
+	
+.kjxw_neirong_zi{		/*科技内容字*/
+	width:45%;
+	line-height:30px;
+	color:#888888;
+	font-size:12px;
+	float:left;}
+
+.kjxw_neirong_zi_xiaohang{
+	padding-bottom:10px;}
+	
+.kjxw_neirong_zi a{
+	font-size:24px;
+	color:#222222;
+	text-decoration:none;}
+	
+.kjxw_neirong_zi a:hover{
+	text-decoration:underline;
+	color:#FF8456;}
+	
+.kjxw_neirong_tu{		/*科技内容图*/
+	width:55%;
+	float:right;}
+	
+.kjxw_neirong_tu1{		/*------------------回去看看相对定位和绝对定位的区别------------------------*/
+	position:relative;
+	height:305px;
+	width:560px;
+	background:url(../picture/20161215023543944.jpg);}
+	
+.kjxw_neirong_tu2{		/*------------------回去看看相对定位和绝对定位的区别------------------------*/
+	position:relative;
+	height:305px;
+	width:561px;
+	background:url(../picture/20161216050434757.png) no-repeat;}
+
+.kjxw_neirong_touming{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background:url(../picture/touming_kejixinwen.png) no-repeat;
+	line-height:40px;}
+
+.kjxw_neirong_touming a{
+	color:#FFFFFF;
+	text-decoration:none;}
+
+.kjxw_neirong_touming a:hover{
+	font-weight:bold;
+	color:red;
+	text-decoration:underline;}
+	
+.junshi{		/*军事板块*/
+	clear:both;}
+	
+.kuaisulianjie{
+	width:100%;
+	position:fixed;
+	text-align:center;
+	bottom:0px;}
+	
+.kuaisulianjie li{
+	text-align:center;
+	background-color:#7AC74A;
+	width:13%;
+	display:inline-block;}
+ 
+ .kuaisulianjie li:hover{
+	 background-color:#58E3BA;}
+ 
+ .kuaisulianjie li a:hover{
+	 color:#FF0004;
+	 font-weight:bold;}
+ 
+ .kuaisulianjie li a{
+	 text-decoration:none;
+	 line-height:30px;}
+
+.kjxw_neirongkuang{				/*科技新闻内容框*/
+	height:600px;
+	width:100%;}
+	
+.kjxw_neirongkuang_left{
+	height:352px;				/*一个为height:352px;*/
+	overflow:hidden;
+	margin-top:8px;
+	position:relative;
+	background:url(../picture/73Gl-fxyyfqs3883332.gif);
+	background-size:100%;				/*背景图片大小满div*/}
+	
+.kjxw_neirongkuang_left_touming{
+	position:absolute;
+	background:url(../picture/touming_kejixinwen.png) repeat-x;
+	width:100%;
+	bottom:0px;}
+	
+.kjxw_neirongkuang_left_touming a{
+	color:#FFFFFF;
+	margin-left:60px;
+	text-decoration:none;
+	line-height:40px;}
+	
+.kjxw_neirongkuang_left_touming a:hover{
+	text-decoration:underline;
+	font-weight:bold;}
+	
+.kjxw_neirongkuang_right{
+	width:30%;
+	height:763px;
+	margin-top:5px;
+	overflow:hidden;
+	float:right;
+	line-height:30px;}
+	
+.kjxw_neirongkuang_right span a:hover{
+	text-decoration:underline;
+	color:red;}
+	
+.kjxw_neirongkuang_right a:hover{
+	text-decoration:underline;
+	color:red;}
+	
+.kjxw_neirongkuang_right a{
+	color:#000000;
+	font-size:13px;
+	line-height:20px;
+	text-decoration:none;}
+	
+.kjxw_neirongkuang_right span a{
+	font-family:华文细黑;
+	text-decoration:none;
+	color:#333333;
+	font-size:18px;
+	font-weight:bold;}
+	
+.kjxw_neirongkuang_right_xiaohongzi a{
+	color:#FF0000;}
+	
+.kjxw_neirongkuang_zuo{
+	width:69%;
+	float:left;}
+	
+.kjxw_neirongkuang_left2{
+	position:relative;
+	background:url(../picture/ofq6-fxyxute3427990.jpg);
+	background-size:100%;
+	background-color:red;
+	height:400px;}
+	
+.kjxw_neirongkuang_left_touming a{
+	font-size:22px;}
+
+.youqinglianjie a{
+	font-family:方正舒体;
+	color:#666666;
+	text-decoration:none;
+	font-size:24px;
+	line-height:50px;}
+	
+.youqinglianjie{
+	border:#E5E5E5 solid 1px;
+	background-color:#F8F8F8;}
+	
+.lianxi_qq{
+	float:right;
+	margin-right:20px;
+	color:#999999;
+	line-height:50px;}
+
+.youqinglianjie_neirong a:hover{
+	color:#6689DA;
+	text-decoration:underline;}
+
+.youqinglianjie_neirong a{
+	width:10%;
+	color:#666666;
+	line-height:40px;
+	text-decoration:none;}
+
+.youqinglianjie_neirong{
+	border:#E5E5E5 solid 1px;
+	background-color:#FFFFFF;}
+	
+.youqinglianjie_neirong ul{
+	text-align:center;}
+	
+.youqinglianjie_neirong li{
+	display:inline-block;
+	text-align:center;
+	width:11%;}
+	
+.zhongduoshenming_left{
+	background-color:#F1F2F3;
+	float:left;
+	width:33%;}
+	
+.zhongduoshenming_middle{
+	background-color:#F1F2F3;
+	float:left;
+	width:33%;}
+	
+.zhongduoshenming_right{
+	width:34%;
+	background-color:#F1F2F3;
+	float:right;}
+	
+.zhongduoshenming span:hover{
+	font-weight:bold;
+	font-size:17px;
+	color:#FF3C00;}
+
+.zhongduoshenming{
+	cursor:url(../picture/ico/dibu.ico),deflut;
+	color:#555555;
+	font-size:10px;
+	line-height:40px;
+	margin-top:30px;
+	width:100%;}
+	
+.dibujiankong{
+	cursor:url(../picture/ico/dibu.ico),deflut;
+	background-color:#F1F2F3;
+	padding-top:180px;
+	text-align:center;}
+
+.shixunchengyuan ul{
+	text-align:center;}
+
+.shixunchengyuan li:hover{
+	font-weight:bold;
+	color:red;
+	font-size:50px;}
+
+.shixunchengyuan li{
+	display:inline-block;
+	width:12%;
+	text-align:center;}
+
+.shixunchengyuan{
+	color:#555555;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-size:15px;
+	line-height:40px;
+	background-color:#F1F2F3;}

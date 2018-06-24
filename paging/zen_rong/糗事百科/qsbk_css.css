@@ -1,0 +1,51 @@
+/* CSS Document */
+
+.top{
+	background:url(%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/455.png) repeat-x;
+	height:81px;}
+	
+.top_right a:hover{
+	color:#330000;
+	font-size:26px;}
+	
+.top_right li:hover{
+	background:#FFE36F;}
+	
+.top_right li a{
+	color:#7A6528;
+	line-height:81px;
+	text-decoration:none;}
+	
+.top_right{
+	margin-left:300px;}
+	
+.top_right li{
+	text-align:center;
+	display:inline-block;
+	width:9%;}
+	
+.top_left{
+	float:left;
+	margin-left:100px;}
+	
+.middle_left{
+	float:left;
+	width:70%;
+	height:3200px;}
+	
+.middle_left_1{
+	line-height:40px;}
+	
+.middle_left_2{
+	line-height:40px;}
+	
+.middle_left_3{
+	line-height:40px;}
+	
+.middle_right{
+	float:right;
+	width:30%;}
+
+.under {
+    width:100%;
+	margin-top:3150px;}

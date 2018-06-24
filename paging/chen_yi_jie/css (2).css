@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:hsla(100,100%,100%,1.00);
+	}
+	#xinwenkaishile{weight:700px;
+		text-align:center;
+		float:center;}
+#shouhang li{writing-mode:lt-tb;
+background-color:hsla(0,0%,78%,1.00);
+float:left;
+width:100px;
+display:block;
+}
+#fanye{
+	text-align:center;
+	font-color:hsla(0,0%,78%,1.00);
+	height:20px;
+	float:center;
+	background-color:white;
+}
+

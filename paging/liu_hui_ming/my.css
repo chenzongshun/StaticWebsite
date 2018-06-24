@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.one{
+	width:20px;
+	height:20px;}
+.A{
+	float:right;
+	font-size:14px;}
+	
+.A a{
+	padding-top:0px;
+	color:#CD2124;
+	background:url(topbg.gif);}
+
+.A a,a:hover{
+		text-decoration:none;}
+	
+.two{
+	margin-top:0px;}
